@@ -9,12 +9,10 @@ void display(int arr[],int n){
 }
 
 int deleteElem(int arr[],int size,int index,int arrSize){
-    if(size>=arrSize){
-        printf("In if condition");
+    if(index>=arrSize){
         return -1;
     }
     else{
-        printf("In else condition");
         for(int i=index;i<=size-1;i++){
             arr[i]=arr[i+1];
         }
