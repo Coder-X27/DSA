@@ -59,6 +59,9 @@ k *insertionAfterNode(k *head, k *prevNode, int data)
     prevNode->next = ptr;
     return head;
 }
+k *deletionFirst(k *head)
+{
+}
 int main()
 {
 
@@ -86,8 +89,8 @@ int main()
     // linkedListTraversal(head);
     // head = insertionAtEnd(head, 1121);
     // linkedListTraversal(head);
-    head = insertionAfterNode(head, second, 1121);
-    linkedListTraversal(head);
+    // head = insertionAfterNode(head, second, 1121);
+    // linkedListTraversal(head);
 
     return 0;
 }
