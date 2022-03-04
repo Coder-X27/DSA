@@ -8,6 +8,7 @@ void display(int arr[],int n){
     printf("\n");
 }
 
+
 int insertElem(int arr[],int size,int elem,int index,int arrSize){
     if(size>=arrSize){
         printf("In if condition");
