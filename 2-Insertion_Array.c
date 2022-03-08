@@ -21,7 +21,6 @@ int insertElem(int arr[],int size,int elem,int index,int arrSize){
         }
         arr[index]=elem;
     }
-    
 }
 
 int main(){
